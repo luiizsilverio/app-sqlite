@@ -10,6 +10,10 @@ Trata-se de um CRUD simples de anotações, que armazena os dados no banco __SQL
 - Expo-SQLite
 
 
+## :camera_flash: Screenshots
+![](https://github.com/luiizsilverio/app-sqlite/blob/desafio/src/assets/app-local.gif)
+
+
 ## :car: Iniciando a aplicação
 ```bash
 $ git clone https://github.com/luiizsilverio/app-sqlite
@@ -17,3 +21,4 @@ $ cd app-sqlite
 $ yarn
 $ npx expo start
 ```
+
