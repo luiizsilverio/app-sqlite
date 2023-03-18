@@ -11,7 +11,7 @@ Trata-se de um CRUD simples de anotações, que armazena os dados no banco __SQL
 
 
 ## :camera_flash: Screenshots
-![](https://github.com/luiizsilverio/app-sqlite/blob/main/src/assets/app-local.gif)
+![](https://github.com/luiizsilverio/app-sqlite/blob/desafio/src/assets/app-local.gif)
 
 
 ## :car: Iniciando a aplicação
