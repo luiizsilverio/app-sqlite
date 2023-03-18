@@ -42,14 +42,17 @@ export async function adicionaNota(nota) {
   })
 }
 
-export async function buscaNotas() {
+export async function buscaNotas(categoria = "*") {
   return new Promise((resolve, reject) => {
     db.transaction((tx) => {
-      tx.executeSql(
-        `
-          SELECT * FROM Notas
-        `,
-        [],
+      let comando;
+      if (categoria === "*") {
+        comando = "SELECT * FROM Notas;";
+      } else {
+        comando = `SELECT * FROM Notas WHERE categoria = "${categoria}";`;
+      }
+
+      tx.executeSql(comando, [],
         (transaction, resultado) => {
           resolve(resultado.rows._array);
         },
