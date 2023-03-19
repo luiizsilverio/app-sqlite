@@ -2,6 +2,7 @@
 
 Aplicação desenvolvida em React Native, durante o curso [React Native: guardando informações localmente](https://cursos.alura.com.br/course/react-native-informacoes-localmente), da Alura.
 Trata-se de um CRUD simples de anotações, que armazena os dados no banco __SQLite__.
+O filtro por categoria que eu implementei não estava no projeto original.
 <br/>
 
 ## 🚀 Tecnologias
